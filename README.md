@@ -1,22 +1,30 @@
-# 키워드 클릭 광고를 적용한 이커머스 플랫폼
 
 
-## 배포 링크
-> AWS S3, CloudFront, Route53 배포 / Github Actions CICD 구축 
+<div align="center">
+    <img src="https://github.com/whl5105/Team-adEarth-client-v2.0/assets/73993670/cb51ea0a-8a63-4735-a831-dc3c14ce9549" width="1000"/>
+    <br />
+    <h2> CPC 키워드 광고를 적용한 이커머스 플랫폼
+      <img src="https://github.com/whl5105/Team-adEarth-client-v2.0/assets/73993670/8deb8b8f-54dc-4ffc-abfb-45954fc0850f" width="25" height="25"/>
+    </h2>
+    <p>
+        ‘기존 키워드 클릭 광고주 페이지의 문제점들을 개선해<br />
+        광고 입찰에 꼭 필요한 기능들만 선별해 사용자의 경험을 개선해 보았어요. <br />
+    </p>
+    <p>
+        <a href="[https://zellodraw.com](https://adearth.shop)" target="_blank">사이트 보러가기(id: testuser / password: aaa1111!)</a> 
+        <br/>
+        <span>현재 해당사이트는 운영중이지 않습니다.</a>
+    </p>
+    <a href="" target="_blank">관리자 페이지 보러가기</a> &nbsp; &nbsp; |&nbsp; &nbsp; 
+    <a href="" target="_blank">개발일지</a> &nbsp; | &nbsp; &nbsp;
+    <a href="" target="_blank">팀 노션</a>&nbsp; | &nbsp; &nbsp;
+    <a href="" target="_blank">API</a> &nbsp;
 
-- [🌐 구매자 페이지 (id: testuser / password: aaa1111!)](https://adearth.shop)
-- [🌐 어드민 페이지 (id: jigushop / password: aaa1111!)](https://adearth-admin.shop)
+</div>
 
-## 실행 방법
-```
-git clone https://github.com/ad-earth/client-v2.0.git
+## 🚀 프로젝트 소개
+<img src="https://github.com/whl5105/Team-adEarth-client-v2.0/assets/73993670/9f525f34-818b-49cf-ac0e-0f8c3dd80c9d" width="1000"/>
 
-npm install
-npm start
-```
-
-## 서비스 개요 
-> 2023/02/28 ~  **v2.0 리팩토링 시작**
 #### 프로젝트 주제
 - 키워드 클릭 광고를 적용한 이커머스 플랫폼
 #### 개발 목적
@@ -40,38 +48,90 @@ npm start
 - 상품 목록 정렬과 pagination의 페이지 처리를 state에서 query string으로 변경
 - React Portal을 사용해 독립적인 Modal DOM 선언
 
+<br/>
+
 ## 페이지 주요 기능
-| 회원가입 및 로그인 페이지 | 메인 페이지 |
-|---|---|
-|<img src="https://user-images.githubusercontent.com/105091138/231611197-778c05c4-ffc0-4099-b21e-861bcf7a8add.gif" width="400" />|<img src="https://user-images.githubusercontent.com/105091138/231608589-842124e8-0c00-4100-926e-70fad42525f4.gif" width="400"/>|
-|▪︎ 아이디 & 비밀번호 & 연락처 중복검사, 실시간 유효성 검사 <br /> ▪︎ 아이디 & 비밀번호 찾기|▪︎ BEST 상품(누적 판매량 6위 이내의 6개 상품) 확인 <br /> ▪︎ NEW 상품(최신 등록 순 9개 상품) 확인|
+### 회원가입 및 로그인 페이지 
+<img alt="회원가입 및 로그인 페이지" 
+  src="https://user-images.githubusercontent.com/105091138/231611197-778c05c4-ffc0-4099-b21e-861bcf7a8add.gif" />
+▪︎ 아이디 & 비밀번호 & 연락처 중복검사, 실시간 유효성 검사 <br /> ▪︎ 아이디 & 비밀번호 찾기
 
-| 상품 목록 페이지 | 광고 검색 목록 페이지 |
-|---|---|
-|<img src="https://user-images.githubusercontent.com/105091138/231609516-ad1f46ae-e9b5-4fd4-b7cd-1f77bafb7cba.gif" width="400" />|<img src="https://user-images.githubusercontent.com/105091138/232265920-aca2f3ce-4dcd-418f-9ff8-5a47a8ed165b.gif" width="400"/>|
-|▪︎ 카테고리 별 상품 조회 <br /> ▪︎ 상품 목록 등록순, 인기순 정렬 <br /> ▪︎ 관심 상품 등록 |▪︎ 키워드 검색 시, 광고 키워드로 등록된 상품 확인 <br /> ▪︎ 광고 상품과 일반 상품을 구분하여 제공 <br /> ▪︎ 관심 상품 등록 |
+<br/>
 
-| 상품 상세 페이지 | 장바구니 페이지 |
-|---|---|
-|<img src="https://user-images.githubusercontent.com/105091138/231612055-86e68d3a-7c1e-4a59-9ce3-dbbcf5c8a732.gif" width="400" />|<img src="https://user-images.githubusercontent.com/105091138/231612433-1660c955-10fe-4fba-a3ba-6cdb6657867f.gif" width="400"/>|
-| ▪︎ 상품 상세 정보 제공 <br /> ▪︎ 관심 상품 등록  <br /> ▪︎ 구매평 확인 및 삭제|▪︎ 장바구니 상품과 옵션 정보 제공 <br /> ▪︎ 상품별 옵션과 수량 수정 및 삭제  <br /> ▪︎ 전체 & 선택 상품 구매 및 삭제|
+### 메인 페이지 
+<img alt="메인 페이지"
+src="https://user-images.githubusercontent.com/105091138/231608589-842124e8-0c00-4100-926e-70fad42525f4.gif"/>
+▪︎ BEST 상품(누적 판매량 6위 이내의 6개 상품) 확인 <br /> ▪︎ NEW 상품(최신 등록 순 9개 상품) 확인
 
+<br/>
 
-| 결제 페이지 | 마이 페이지(주문 조회) |
-|---|---|
-|<img src="https://user-images.githubusercontent.com/105091138/231612934-9036cd3e-749b-44bf-bc23-8874ccfd9e85.gif" width="400" />|<img src="https://user-images.githubusercontent.com/105091138/231613382-c3bc49c9-290d-49e4-b65f-6bac2fc31fc0.gif" width="400"/>|
-|▪︎ 결제 상품 정보 제공 <br /> ▪︎ 기본 정보(배송지, 이름, 연락처) 제공 <br /> ▪︎ 이전 배송지 목록 선택 & 신규 배송지 추가 |  ▪︎ 주문정보 리스트 무한스크롤 <br /> ▪︎ 주문정보 상세 내용 제공  | 
+ ### 상품 목록 페이지 
+<img alt="" 
+  src="https://user-images.githubusercontent.com/105091138/231609516-ad1f46ae-e9b5-4fd4-b7cd-1f77bafb7cba.gif" />
+▪︎ 카테고리 별 상품 조회 <br /> ▪︎ 상품 목록 등록순, 인기순 정렬 <br /> ▪︎ 관심 상품 등록 
 
-| 마이페이지(위시 리스트)  | 마이 페이지(취소 조회) |
-|---|---|
-|<img src="https://user-images.githubusercontent.com/105091138/231614054-bff7551b-041c-4431-a4d9-545c3fb481f0.gif" width="400" />|<img src="https://user-images.githubusercontent.com/105091138/231614032-d5718ac4-e047-483c-9742-d61dfda084ef.gif" width="400"/>|
-|▪︎ 위시리스트 무한스크롤  <br /> ▪︎ 위시리스트 삭제 | ▪︎ 전체 & 선택 상품 주문취소 |
+### 광고 검색 목록 페이지 
+<img alt="" 
+  src="https://user-images.githubusercontent.com/105091138/232265920-aca2f3ce-4dcd-418f-9ff8-5a47a8ed165b.gif" />
+▪︎ 키워드 검색 시, 광고 키워드로 등록된 상품 확인 <br /> ▪︎ 광고 상품과 일반 상품을 구분하여 제공 <br /> ▪︎ 관심 상품 등록
 
+<br/>
 
+### 상품 상세 페이지 
+<img alt="" 
+  src="https://user-images.githubusercontent.com/105091138/231612055-86e68d3a-7c1e-4a59-9ce3-dbbcf5c8a732.gif" />
+▪︎ 상품 상세 정보 제공 <br /> ▪︎ 관심 상품 등록  <br /> ▪︎ 구매평 확인 및 삭제
 
+<br />
 
+### 장바구니 페이지 
+<img alt="" 
+  src="https://user-images.githubusercontent.com/105091138/231612433-1660c955-10fe-4fba-a3ba-6cdb6657867f.gif" />
+▪︎ 장바구니 상품과 옵션 정보 제공 <br /> ▪︎ 상품별 옵션과 수량 수정 및 삭제  <br /> ▪︎ 전체 & 선택 상품 구매 및 삭제
 
+<br />
 
+### 결제 페이지  
+<img alt="" 
+  src="https://user-images.githubusercontent.com/105091138/231612934-9036cd3e-749b-44bf-bc23-8874ccfd9e85.gif" >
+▪︎ 결제 상품 정보 제공 <br /> ▪︎ 기본 정보(배송지, 이름, 연락처) 제공 <br /> ▪︎ 이전 배송지 목록 선택 & 신규 배송지 추가 
+
+<br />
+
+###  결제 제품 주문배송 확인 및 취소 
+<img alt="" 
+  src="https://user-images.githubusercontent.com/105091138/231613382-c3bc49c9-290d-49e4-b65f-6bac2fc31fc0.gif"/>
+
+[주문조회]
+- 사용자가 주문한 정보를 간편하게 확인할 수 있어요
+- 주문한 상품을 클릭하면 배송지 정보와 결제금액이 확인가능해요.
+- 주문한 상품의 배송상태를(주문완료, 주문확인,배송중,배송완료) 바로 확인 할 수 있어요.
+
+[주문취소]
+- 배송 출발전 제품이라면 주문취소가 가능해요.
+- 여러개상품을 주문했다면 개별로 주문삭제가 가능해요.
+- 주문취소시 실시간으로 환불금액을 확인할 수 있어요
+- 주문취소가 접수되면 토스트 메세지로 알려줘요.
+
+<br />
+  
+###  위시리스트
+<img alt="" 
+  src="https://user-images.githubusercontent.com/105091138/231614054-bff7551b-041c-4431-a4d9-545c3fb481f0.gif"/>
+
+- 상품을 둘러보며 좋아요한 상품을 한눈에 확인할 수 있어요.
+- 위시리스트 삭제가 바로 가능해요.
+- 상품 선택시 상품 상세페이지를 확인할 수 있어요.
+- 상단에 좋아요를 누른 상품의 총 갯수를 바로 확인할 수 있어요.
+
+<br />
+
+### 주문취소 확인
+<img alt="" 
+  src="https://user-images.githubusercontent.com/105091138/231614032-d5718ac4-e047-483c-9742-d61dfda084ef.gif" />
+
+- 주문취소한 내역을 한번에 확인할수 있어요.
+- 취소상품의 상세내역에서 주문했던내역과 취소내역을 함께 확인할 수 있어요.
 
 
 ## 기술 스택
