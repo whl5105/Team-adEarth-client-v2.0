@@ -1,5 +1,6 @@
 # 키워드 클릭 광고를 적용한 이커머스 플랫폼
 
+
 ## 배포 링크
 > AWS S3, CloudFront, Route53 배포 / Github Actions CICD 구축 
 
@@ -66,16 +67,76 @@ npm start
 |<img src="https://user-images.githubusercontent.com/105091138/231614054-bff7551b-041c-4431-a4d9-545c3fb481f0.gif" width="400" />|<img src="https://user-images.githubusercontent.com/105091138/231614032-d5718ac4-e047-483c-9742-d61dfda084ef.gif" width="400"/>|
 |▪︎ 위시리스트 무한스크롤  <br /> ▪︎ 위시리스트 삭제 | ▪︎ 전체 & 선택 상품 주문취소 |
 
-## 아키텍쳐 
-![광고지구아키텍쳐](https://user-images.githubusercontent.com/105091138/195766564-08299428-e979-49f0-97c8-7a130a7b106c.jpeg)
+
+
+
+
+
+
 
 ## 기술 스택
 - React, TypeScript
 - React-Query, ReduxTK, Axios
 - Styled-Components
 
+## 아키텍처 구조도 
+![광고지구아키텍쳐](https://user-images.githubusercontent.com/105091138/195766564-08299428-e979-49f0-97c8-7a130a7b106c.jpeg)
 
-## 기타
+## Development Setup
+
+```bash
+
+# Move to your workspace
+cd your-workspace
+
+# Clone this repository:
+$ git clone https://github.com/whl5105/Team-adEarth-admin-v2.0.git
+
+# Enter in directory:
+$ cd Team-adEarth-admin-v2
+
+# Install dependencies:
+$ yarn install
+
+# Run the development server:
+$ yarn start
+
+# Open the project in your browser
+$ http://localhost:3000
+```
+
+
+## 팀원소개
+  <table>
+  <tr>
+      <td align="center">FrontEnd</td>
+      <td align="center">FrontEnd</td>
+      <td align="center">FrontEnd</td>
+      <td align="center">BackEnd</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://github.com/whl5105.png" width="160"></td>
+      <td align="center"><img src="https://github.com/damiiya.png" width="160"></td>
+      <td align="center"><img src="https://github.com/sol-pine.png" width="160"></td>
+      <td align="center"><img src="https://github.com/huitopia.png" width="160"></td>
+    </tr>
+    <tr>
+      <td align="center">최수인</td>
+      <td align="center">이담</td>
+      <td align="center">해솔</td>
+      <td align="center">김다희</td>
+    </tr>
+    <tr>
+      <td align="center"><a href="https://github.com/whl5105" target="_blank">@whl5105</a></td>
+      <td align="center"><a href="https://github.com/damiiya" target="_blank" width="160">@damiiya</a></td>
+      <td align="center"><a href="https://github.com/sol-pine" target="_blank">@sol-pine</a></td>
+      <td align="center"><a href="https://github.com/huitopia" target="_blank">@huitopia</a></td>
+    </tr>
+  </table>
+
+
+  ## 기타
 - [🤝 Convention](https://github.com/ad-earth/client-v2.0/issues/73)
 - [🧩 IA](https://www.figma.com/file/0cxWFuPwV5h23dWp4idH5k/%EA%B5%AC%EB%A7%A4%EC%9E%90-IA?node-id=0%3A1)
 - [📄 API](https://documenter.getpostman.com/view/18707207/2s7Z7ZnZDy)
+
