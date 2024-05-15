@@ -139,8 +139,25 @@ src="https://user-images.githubusercontent.com/105091138/231608589-842124e8-0c00
 - React-Query, ReduxTK, Axios
 - Styled-Components
 
+<br/>
+
 ## 아키텍처 구조도 
 ![광고지구아키텍쳐](https://user-images.githubusercontent.com/105091138/195766564-08299428-e979-49f0-97c8-7a130a7b106c.jpeg)
+
+<br/>
+
+## Git Flow 
+![gitFlow](https://github.com/whl5105/Team-adEarth-client-v2.0/assets/73993670/3ab09e53-9618-4184-bef5-73eba7b45740)
+
+
+- master : 제품으로 출시될 수 있는 브랜치
+- hotfix : 출시 버전에서 발생한 버그를 수정 하는 브랜치
+- develop : 다음 출시 버전을 개발하는 브랜치
+- feature : 기능을 개발하는 브랜치
+- refactoring develop  : 코드 리팩토링 작업을 수행하는 브랜치
+- refactoring feature  : 리팩토링 과정에서 해당 기능에 수행하는 브랜치  
+
+<br/>
 
 ## Development Setup
 
@@ -165,8 +182,9 @@ $ yarn start
 $ http://localhost:3000
 ```
 
+<br/>
 
-## 팀원소개
+## Team Members
   <table>
   <tr>
       <td align="center">FrontEnd</td>
@@ -195,8 +213,4 @@ $ http://localhost:3000
   </table>
 
 
-  ## 기타
-- [🤝 Convention](https://github.com/ad-earth/client-v2.0/issues/73)
-- [🧩 IA](https://www.figma.com/file/0cxWFuPwV5h23dWp4idH5k/%EA%B5%AC%EB%A7%A4%EC%9E%90-IA?node-id=0%3A1)
-- [📄 API](https://documenter.getpostman.com/view/18707207/2s7Z7ZnZDy)
 
