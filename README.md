@@ -206,10 +206,10 @@ src="https://user-images.githubusercontent.com/105091138/231608589-842124e8-0c00
 cd your-workspace
 
 # Clone this repository:
-$ git clone https://github.com/whl5105/Team-adEarth-admin-v2.0.git
+$ git clone https://github.com/whl5105/Team-adEarth-client-v2.0.git
 
 # Enter in directory:
-$ cd Team-adEarth-admin-v2
+$ cd Team-adEarth-client-v2.0
 
 # Install dependencies:
 $ yarn install
