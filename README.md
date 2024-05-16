@@ -135,9 +135,54 @@ src="https://user-images.githubusercontent.com/105091138/231608589-842124e8-0c00
 
 
 ## 기술 스택
-- React, TypeScript
-- React-Query, ReduxTK, Axios
-- Styled-Components
+<table>
+    <thead>
+        <tr>
+          <td align="center"><b>분류</b></td>
+          <td align="center"><b>스택</br></td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td align="center"><b>FrontEnd</b></td>
+            <td>
+                <img src="https://img.shields.io/badge/React-18.2.0-61DAFB?logo=react&logoColor=white&color=5C5C5C&labelColor=61DAFB"/>
+                <img src="https://img.shields.io/badge/TypeScript-4.9.5-3178C6?logo=typescript&logoColor=white&color=5C5C5C&labelColor=3178C6"/>	
+                <img src="https://img.shields.io/badge/React Query-3.39.3-FF4154?logo=ReactQuery&logoColor=white&color=5C5C5C&labelColor=FF4154"/>	
+                <img src="https://img.shields.io/badge/reduxTk -8.0.5-764ABC?logo=redux&logoColor=white&color=5C5C5C&labelColor=764ABC"/>	
+                <img src="https://img.shields.io/badge/Styled Components-5.3.6-DB7093?logo=styledComponents&logoColor=white&color=5C5C5C&labelColor=DB7093"/>	
+            </td>
+        </tr>
+        <tr>
+            <td align="center"><b>BackEnd</b></td>
+            <td>
+                <img src="https://img.shields.io/badge/javascript-F7DF1E?logo=javascript&logoColor=white"/>
+                <img src="https://img.shields.io/badge/nodedotjs-5FA04E?logo=nodedotjs&logoColor=white"/> 
+                <img src="https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white"/>
+                <img src="https://img.shields.io/badge/expressJs-000000?logo=express&logoColor=white"/>		
+            </td>
+         </tr>
+         <tr>
+             <td align="center"><b>Infra</b></td>
+             <td>
+                 <img src="https://img.shields.io/badge/Github_Action-2088FF?logo=githubactions&logoColor=white"/> 
+                 <img src="https://img.shields.io/badge/amazonec2-FF9900?logo=amazonec2&logoColor=white"/> 
+                 <img src="https://img.shields.io/badge/amazons3-569A31?logo=amazons3&logoColor=white"/> 
+                 <img src="https://img.shields.io/badge/amazonroute53-8C4FFF?logo=amazonroute53&logoColor=white"/>
+             </td>
+        </tr>
+        <tr>
+            <td align="center"><b>Collaboration</b></td>
+            <td>
+              <img src="https://img.shields.io/badge/Slack-4A154B?logo=slack&logoColor=white"/>
+              <img src="https://img.shields.io/badge/Notion-000000?logo=Notion"> 
+              <img src="https://img.shields.io/badge/Figma-F24E1E?logo=Figma&logoColor=ffffff"> 
+              <img src="https://img.shields.io/badge/Discord-5865F2?logo=Discord&logoColor=ffffff">
+            </td>
+        </tr>
+    </tbody>
+</table>
+
 
 <br/>
 
