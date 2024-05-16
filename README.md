@@ -43,6 +43,7 @@
 ### 회원가입 및 로그인 페이지 
 <img alt="회원가입 및 로그인 페이지" 
   src="https://user-images.githubusercontent.com/105091138/231611197-778c05c4-ffc0-4099-b21e-861bcf7a8add.gif" />
+  
 ▪︎ 아이디 & 비밀번호 & 연락처 중복검사, 실시간 유효성 검사 <br /> ▪︎ 아이디 & 비밀번호 찾기
 
 <br/>
@@ -50,6 +51,7 @@
 ### 메인 페이지 
 <img alt="메인 페이지"
 src="https://user-images.githubusercontent.com/105091138/231608589-842124e8-0c00-4100-926e-70fad42525f4.gif"/>
+
 ▪︎ BEST 상품(누적 판매량 6위 이내의 6개 상품) 확인 <br /> ▪︎ NEW 상품(최신 등록 순 9개 상품) 확인
 
 <br/>
@@ -57,11 +59,13 @@ src="https://user-images.githubusercontent.com/105091138/231608589-842124e8-0c00
  ### 상품 목록 페이지 
 <img alt="" 
   src="https://user-images.githubusercontent.com/105091138/231609516-ad1f46ae-e9b5-4fd4-b7cd-1f77bafb7cba.gif" />
+  
 ▪︎ 카테고리 별 상품 조회 <br /> ▪︎ 상품 목록 등록순, 인기순 정렬 <br /> ▪︎ 관심 상품 등록 
 
 ### 광고 검색 목록 페이지 
 <img alt="" 
   src="https://user-images.githubusercontent.com/105091138/232265920-aca2f3ce-4dcd-418f-9ff8-5a47a8ed165b.gif" />
+  
 ▪︎ 키워드 검색 시, 광고 키워드로 등록된 상품 확인 <br /> ▪︎ 광고 상품과 일반 상품을 구분하여 제공 <br /> ▪︎ 관심 상품 등록
 
 <br/>
@@ -69,6 +73,7 @@ src="https://user-images.githubusercontent.com/105091138/231608589-842124e8-0c00
 ### 상품 상세 페이지 
 <img alt="" 
   src="https://user-images.githubusercontent.com/105091138/231612055-86e68d3a-7c1e-4a59-9ce3-dbbcf5c8a732.gif" />
+  
 ▪︎ 상품 상세 정보 제공 <br /> ▪︎ 관심 상품 등록  <br /> ▪︎ 구매평 확인 및 삭제
 
 <br />
@@ -76,6 +81,7 @@ src="https://user-images.githubusercontent.com/105091138/231608589-842124e8-0c00
 ### 장바구니 페이지 
 <img alt="" 
   src="https://user-images.githubusercontent.com/105091138/231612433-1660c955-10fe-4fba-a3ba-6cdb6657867f.gif" />
+  
 ▪︎ 장바구니 상품과 옵션 정보 제공 <br /> ▪︎ 상품별 옵션과 수량 수정 및 삭제  <br /> ▪︎ 전체 & 선택 상품 구매 및 삭제
 
 <br />
@@ -83,6 +89,7 @@ src="https://user-images.githubusercontent.com/105091138/231608589-842124e8-0c00
 ### 결제 페이지  
 <img alt="" 
   src="https://user-images.githubusercontent.com/105091138/231612934-9036cd3e-749b-44bf-bc23-8874ccfd9e85.gif" >
+  
 ▪︎ 결제 상품 정보 제공 <br /> ▪︎ 기본 정보(배송지, 이름, 연락처) 제공 <br /> ▪︎ 이전 배송지 목록 선택 & 신규 배송지 추가 
 
 <br />
