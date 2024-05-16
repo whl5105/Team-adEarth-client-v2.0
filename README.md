@@ -11,7 +11,7 @@
         광고 입찰에 꼭 필요한 기능들만 선별해 사용자의 경험을 개선해 보았어요. <br />
     </p>
     <p>
-        <a href="[https://zellodraw.com](https://adearth.shop)" target="_blank">사이트 보러가기(id: testuser / password: aaa1111!)</a> 
+        <a href="https://adearth.shop" target="_blank">사이트 보러가기(id: testuser / password: aaa1111!)</a> 
         <br/>
         <span>현재 해당사이트는 운영중이지 않습니다.</a>
     </p>
