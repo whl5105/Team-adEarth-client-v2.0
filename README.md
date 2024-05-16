@@ -15,10 +15,6 @@
         <br/>
         <span>현재 해당사이트는 운영중이지 않습니다.</a>
     </p>
-    <a href="" target="_blank">관리자 페이지 보러가기</a> &nbsp; &nbsp; |&nbsp; &nbsp; 
-    <a href="" target="_blank">개발일지</a> &nbsp; | &nbsp; &nbsp;
-    <a href="" target="_blank">팀 노션</a>&nbsp; | &nbsp; &nbsp;
-    <a href="" target="_blank">API</a> &nbsp;
 
 </div>
 
